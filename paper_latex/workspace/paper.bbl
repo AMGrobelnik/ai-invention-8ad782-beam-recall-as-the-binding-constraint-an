@@ -1,0 +1,137 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Breiman(2001)]{Breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock \emph{Machine Learning}, 45\penalty0 (1):\penalty0 5--32, 2001.
+
+\bibitem[Brunello et~al.(2026)Brunello, Geatti, Mignani, Montanari, and
+  Saccomanno]{Brunello2026}
+Andrea Brunello, Luca Geatti, Nicola Mignani, Angelo Montanari, and Nicola
+  Saccomanno.
+\newblock Do {LLMs} really struggle at {NL-FOL} translation? {Revealing} their
+  strengths via a novel benchmarking strategy.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~40, pages 30094--30103, 2026.
+\newblock \doi{10.48550/arXiv.2511.11816}.
+
+\bibitem[de~Moura and Bj{\o}rner(2008)]{deMoura2008}
+Leonardo de~Moura and Nikolaj Bj{\o}rner.
+\newblock {Z3}: An efficient {SMT} solver.
+\newblock In \emph{Tools and Algorithms for the Construction and Analysis of
+  Systems (TACAS)}, pages 337--340, 2008.
+
+\bibitem[Dubey et~al.(2024)]{Dubey2024}
+Abhimanyu Dubey et~al.
+\newblock The {Llama} 3 herd of models.
+\newblock \emph{arXiv preprint arXiv:2407.21783}, 2024.
+
+\bibitem[Geng et~al.(2023)Geng, Josifosky, Peyrard, and West]{Geng2023}
+Saibo Geng, Martin Josifosky, Maxime Peyrard, and Robert West.
+\newblock Grammar-constrained decoding for structured {NLP} tasks without
+  finetuning.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 10932--10952, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.674}.
+
+\bibitem[Han et~al.(2022)Han, Schoelkopf, Zhao, Qi, Riddell, Benson, Sun,
+  Zubova, Qiao, Burtell, Peng, Fan, Liu, Wong, Sailor, Ni, Nan, Kasai, Yu,
+  Zhang, Joty, Fabbri, Kryscinski, Lin, Xiong, and Radev]{Han2022}
+Simeng Han, Hailey Schoelkopf, Yilun Zhao, Zhenting Qi, Martin Riddell, Luke
+  Benson, Lucy Sun, Ekaterina Zubova, Yujie Qiao, Matthew Burtell, David Peng,
+  Jonathan Fan, Yixin Liu, Brian Wong, Malcolm Sailor, Ansong Ni, Linyong Nan,
+  Jungo Kasai, Tao Yu, Rui Zhang, Shafiq Joty, Alexander Fabbri, Wojciech
+  Kryscinski, Xi~Victoria Lin, Caiming Xiong, and Dragomir Radev.
+\newblock {FOLIO}: Natural language reasoning with first-order logic.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, 2022.
+\newblock \doi{10.48550/arXiv.2209.00840}.
+
+\bibitem[Lakshminarayanan et~al.(2017)Lakshminarayanan, Pritzel, and
+  Blundell]{Lakshminarayanan2017}
+Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell.
+\newblock Simple and scalable predictive uncertainty estimation using deep
+  ensembles.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  6402--6413, 2017.
+
+\bibitem[Liu(2025)]{Liu2025}
+Junnan Liu.
+\newblock Few-shot natural language to first-order logic translation via code
+  generation.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the
+  Americas Chapter of the Association for Computational Linguistics: Human
+  Language Technologies}, 2025.
+
+\bibitem[Min et~al.(2019)Min, Zhong, Zettlemoyer, and Hajishirzi]{Min2019}
+Sewon Min, Victor Zhong, Luke Zettlemoyer, and Hannaneh Hajishirzi.
+\newblock Multi-hop reading comprehension through question decomposition and
+  rescoring.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics}, 2019.
+\newblock \doi{10.18653/v1/P19-1613}.
+
+\bibitem[Olausson et~al.(2023)Olausson, Gu, Lipkin, Zhang, Solar-Lezama,
+  Tenenbaum, and Levy]{Olausson2023}
+Theo~X. Olausson, Alex Gu, Benjamin Lipkin, Cedegao~E. Zhang, Armando
+  Solar-Lezama, Josh Tenenbaum, and Roger Levy.
+\newblock {LINC}: A neurosymbolic approach for logical reasoning by combining
+  language models with first-order logic provers.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 5153--5176, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.313}.
+
+\bibitem[Pan et~al.(2023)Pan, Albalak, Wang, and Wang]{Pan2023}
+Liangming Pan, Alon Albalak, Xinyi Wang, and William~Yang Wang.
+\newblock {Logic-LM}: Empowering large language models with symbolic solvers
+  for faithful logical reasoning.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, 2023.
+\newblock \doi{10.48550/arXiv.2305.12295}.
+
+\bibitem[Pasupat and Liang(2015)]{Pasupat2015}
+Panupong Pasupat and Percy Liang.
+\newblock Compositional semantic parsing on semi-structured tables.
+\newblock In \emph{Proceedings of the 53rd Annual Meeting of the Association
+  for Computational Linguistics}, pages 1470--1480, 2015.
+
+\bibitem[Putra et~al.(2025)]{Putra2025}
+Rizky~Ramadhana Putra et~al.
+\newblock {NL2LOGIC}: {AST}-guided translation of natural language into
+  first-order logic with large language models.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EACL 2026}, 2025.
+\newblock \doi{10.48550/arXiv.2602.13237}.
+
+\bibitem[{Qwen Team}(2025)]{Qwen2025}
+{Qwen Team}.
+\newblock {Qwen2.5} technical report.
+\newblock \emph{arXiv preprint arXiv:2412.15115}, 2025.
+\newblock \doi{10.48550/arXiv.2412.15115}.
+
+\bibitem[Thatikonda et~al.(2024)]{Thatikonda2024}
+Ramya~Keerthy Thatikonda et~al.
+\newblock Strategies for improving {NL}-to-{FOL} translation with {LLMs}: Data
+  generation, incremental fine-tuning, and verification.
+\newblock \emph{arXiv preprint arXiv:2409.16461}, 2024.
+
+\bibitem[Wang et~al.(2023)Wang, Wei, Schuurmans, Le, Chi, and Zhou]{Wang2023}
+Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~H. Chi, and Denny Zhou.
+\newblock Self-consistency improves chain of thought reasoning in language
+  models.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Chi, Xia, Le, and
+  Zhou]{Wei2022}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed~H. Chi, Fei Xia,
+  Quoc Le, and Denny Zhou.
+\newblock Chain of thought prompting elicits reasoning in large language
+  models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+
+\end{thebibliography}

@@ -1,0 +1,14 @@
+{
+  "title": "HOWP: Beam Recall as Binding Constraint for NL-to-FOL Selection",
+  "summary": "Generated a complete 12-page publication-ready LaTeX paper for 'Beam Recall as the Binding Constraint: An Empirical Study of World-Probing for Annotation-Free NL-to-FOL Candidate Selection'. The paper includes all six sections (Introduction, Related Work, Method, Experiments, Discussion, Conclusion) plus a formatted references section. All three figures from available_figures were included: fig_pipeline_v0.jpg (HOWP architecture, full-width figure* on page 2), fig_results_v0.jpg (FOLIO forest plot, full-width figure* on page 7), and fig_synthetic_v0.jpg (synthetic benchmark + AUC violin plot, full-width figure* on page 8). The bibliography (references.bib) was built using Semantic Scholar batch-fetch for 11 of 17 references, with the remaining 6 (Putra NL2LOGIC arXiv:2602.13237, Brunello AAAI 2026 arXiv:2511.11816, Liu Code4Logic NAACL 2025, Thatikonda arXiv:2409.16461, Pasupat ACL 2015, de Moura TACAS 2008) handled via web search and manual BibTeX. A results table (Table 1) was added for FOLIO benchmark results. The paper compiled cleanly with pdflatex/bibtex (4-step process) with only minor font warnings and no errors. Visual review of all 12 pages confirmed clean layout, proper figure placement, no text overflow or cut-off content, and correct citation rendering throughout.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig_pipeline_v0.jpg",
+      "figures/fig_results_v0.jpg",
+      "figures/fig_synthetic_v0.jpg"
+    ]
+  }
+}
