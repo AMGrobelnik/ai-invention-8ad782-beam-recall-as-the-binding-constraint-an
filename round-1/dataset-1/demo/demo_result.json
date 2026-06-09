@@ -1,0 +1,16 @@
+{
+  "kind": "code_demo",
+  "id": "art_9o087KJ7Hcj0",
+  "name": "gen_art_dataset_1",
+  "type": "code",
+  "iteration": 1,
+  "title": "FOLIO First-Order Logic Inference Dataset with Stratified Splits",
+  "summary": "This artifact prepares the FOLIO (First-Order Logic Inference and Ontologies) benchmark dataset sourced from tasksource/folio on HuggingFace (1,875 downloads, backed by Han et al. 2022). The dataset contains natural-language NLI problems where each example has a set of premises and a conclusion labeled entailment/contradiction/neutral, with gold FOL annotations.\n\n**Dataset statistics:**\n- Source: tasksource/folio (HuggingFace), mirroring Yale-LILY/FOLIO\n- Total examples in full_data_out.json: 1,204 (203 validation + 1,001 train)\n- Label distribution (validation): entailment=72, contradiction=62, neutral=69\n- Each example includes: NL premises list, NL conclusion, normalized label, gold FOL annotations\n\n**Stratified splits produced in data_out.json (410 examples):**\n- Main experiment split (include_main=True): 252 examples \u2014 84 per label, evenly distributed across quantifier complexity tiers (0/1/2)\n- Beam recall split (include_beam_recall=True): 51 examples \u2014 ~17 per label, random seed 42\n- Oracle pilot split (include_pilot=True): 30 examples \u2014 10 per category A (simple predication), B (explicit negation), C (quantifier scope)\n- Syntactic pre-filter: open_domain_existential flag applied; 0.5% filter rate\n\n**Pilot worlds (pilot_worlds.json):**\n- 90 hand-constructed minimal world models (3 per pilot example)\n- Each world has: example_id, sentence, world_atoms, domain, ground_truth_bool, category, world_index\n\n**Schema:** All examples in full_data_out.json conform to exp_sel_data_out schema. Input field contains premises + conclusion as a formatted NLI prompt; output field is the normalized label string. Metadata fields include: metadata_example_id, metadata_story_id, metadata_split, metadata_row_index, metadata_task_type (classification), metadata_n_classes (3), metadata_conclusion, metadata_num_premises, metadata_premises_fol, metadata_conclusion_fol.",
+  "original_path": "/ai-inventor/aii_data/runs/run_7jKlp9zHTIUI/3_invention_loop/iter_1/gen_art/gen_art_dataset_1",
+  "demo_path": "/ai-inventor/aii_data/runs/run_7jKlp9zHTIUI/4_gen_paper_repo/_3_gen_art_demo/iter_1/art_9o087KJ7Hcj0",
+  "out_expected_files": {
+    "notebook": "code_demo.ipynb",
+    "mini_data_file": "mini_demo_data.json"
+  },
+  "notebook_path": "/ai-inventor/aii_data/runs/run_7jKlp9zHTIUI/4_gen_paper_repo/_3_gen_art_demo/iter_1/art_9o087KJ7Hcj0/data_code_demo.ipynb"
+}

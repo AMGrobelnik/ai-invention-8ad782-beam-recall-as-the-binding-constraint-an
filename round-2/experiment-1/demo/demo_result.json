@@ -1,0 +1,16 @@
+{
+  "kind": "code_demo",
+  "id": "art_5ADyvHe176j3",
+  "name": "gen_art_experiment_1",
+  "type": "code",
+  "iteration": 2,
+  "title": "HOWP 7-Condition FOL Candidate Selection Experiment on 100 Synthetic NLI Examples",
+  "summary": "This experiment implements and evaluates the Heterogeneous Oracle World Probing (HOWP) pipeline for FOL candidate selection, comparing 7 conditions across 100 synthetic NLI examples using LLaMA-3.1-70B as generator and Qwen-2.5-7B as oracle.\n\n**Dataset:** 175 synthetic single/multi-premise NLI examples (50 beam recall, 100 main, 25 oracle validation) with controlled FOL structure. Labels: entailment (all X are Y + X(name) \u22a8 Y(name)), contradiction (no X are Y + X(name) \u22ad Y(name)), neutral (some X are Y \u22ad Y(name)). Gold FOL in NLTK syntax for Z3 verification.\n\n**Generator:** meta-llama/llama-3.1-70b-instruct (LINC-style few-shot prompt, k=5 candidates, temperature=0.7)\n\n**Oracle:** qwen/qwen-2.5-7b-instruct (paid tier, free tier unavailable)\n\n**Beam recall (k=5):** 100.00% \u2014 gate passed with high margin (threshold 60%)\n\n**Oracle accuracy:** 77.33% (58/75 world-truth comparisons on pilot set)\n\n**Condition results (100 examples):**\n- howp_hetero (diagnostic worlds, Qwen oracle): 0.940 (94/100)\n- howp_same (diagnostic worlds, LLaMA oracle): 0.940 (94/100)\n- howp_random (random worlds, Qwen oracle): 0.960 (96/100)\n- howp_m4 (diagnostic worlds m=4, Qwen oracle): 0.930 (93/100)\n- top1 (first candidate): 0.950 (95/100)\n- self_consist (edit-distance centroid): 0.950 (95/100)\n- direct_judge (oracle picks best directly): 0.990 (99/100)\n\n**Key comparisons:**\n- howp_hetero vs top1: -0.01 (HOWP slightly below top-1)\n- howp_hetero vs self_consist: -0.01 (HOWP slightly below self-consistency)\n- diagnostic vs random worlds: -0.02 (random worlds surprisingly outperform diagnostic)\n- hetero vs same oracle: 0.00 (oracle model identity makes no difference)\n- m8 vs m4: +0.01 (more worlds slightly better)\n\n**Key finding:** With beam recall = 100% and 70B generator, all methods perform similarly (0.93-0.99). World-probing (HOWP) does NOT outperform simpler baselines on simple predicate-application sentences. Direct oracle judgment (direct_judge = 0.99) outperforms all HOWP variants. The oracle's 77.3% in-distribution accuracy introduces noise that hurts HOWP selection relative to deterministic baselines.\n\n**Total cost:** $0.0835 (well within $9 budget)\n**Runtime:** 905 seconds (~15 minutes)\n\n**Implementation:** Z3-based FOL model checker with NLTK syntax parser, async aiohttp client with oracle-sharing optimization (1 oracle call per world vs. n_candidates \u00d7 n_worlds), batch processing with parallelism.",
+  "original_path": "/ai-inventor/aii_data/runs/run_7jKlp9zHTIUI/3_invention_loop/iter_2/gen_art/gen_art_experiment_1",
+  "demo_path": "/ai-inventor/aii_data/runs/run_7jKlp9zHTIUI/4_gen_paper_repo/_3_gen_art_demo/iter_2/art_5ADyvHe176j3",
+  "out_expected_files": {
+    "notebook": "code_demo.ipynb",
+    "mini_data_file": "mini_demo_data.json"
+  },
+  "notebook_path": "/ai-inventor/aii_data/runs/run_7jKlp9zHTIUI/4_gen_paper_repo/_3_gen_art_demo/iter_2/art_5ADyvHe176j3/method_code_demo.ipynb"
+}
