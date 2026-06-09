@@ -1,0 +1,76 @@
+{
+  "title": "Z3 FOL API, OpenRouter Pricing, Few-Shot Prompts & Model Checker Design",
+  "layman_summary": "Gathered Z3 entailment code, verified OpenRouter pricing (~$0.37 total, free Qwen tier available), LINC few-shot FOL prompt templates, and a finite-domain FOL model checker algorithm for a neuro-symbolic logic experiment.",
+  "summary": "This research provides four concrete implementation blocks for the heterogeneous-oracle world-probing experiment.\n\n**Block 1 — Z3 Python API for FOL Entailment**: The standard entailment check uses push/pop scoping: add premises, push, add Not(conclusion), check → if unsat → Entailment; pop, push, add conclusion, check → if unsat → Contradiction; else Neutral. Key Z3 primitives: DeclareSort('Domain'), Function(name, Domain, BoolSort()), Const(name, Domain), ForAll([x], Implies(...)), Exists([x], And(...)), Solver(), s.push()/s.pop(), s.check() == unsat. Critical discovery: LINC (Olausson et al. EMNLP 2023) actually uses Prover9 (not Z3) with NLTK logic module syntax; Z3 is our preferred choice due to Python-native integration.\n\n**Block 2 — OpenRouter Pricing (verified 2026-06-09)**: meta-llama/llama-3.1-8b-instruct: $0.02/1M input, $0.03/1M output, 131K context. qwen/qwen-2.5-7b-instruct: $0.04/1M input, $0.10/1M output, 131K context. BONUS: qwen/qwen-2.5-7b-instruct:free exists (FREE, 131K, 2 providers). Total experiment cost at paid rates: ~$0.37, leaving $9.63 headroom under $10 cap. With free Qwen tier for oracle calls: ~$0.02–$0.05.\n\n**Block 3 — Few-Shot FOL Prompt Template**: LINC uses HTML-style tags: <PREMISES>...<CONCLUSION>...<EVALUATE>TEXT: {nl}\\nFOL: {fol}</EVALUATE>. FOL syntax is NLTK logic module: 'all x. (P(x) -> Q(x))', 'exists x. (P(x) & Q(x))', negation '-', conjunction '&'. Five verified NL→FOL example pairs extracted from LINC paper appendix and FOLIO validation data, with both NLTK syntax and Z3 Python API equivalents provided.\n\n**Block 4 — Python FOL Model Checker**: Recommended approach is Z3-based (reuses existing dependency). Algorithm: DeclareSort for domain, add finite-domain axiom (ForAll x, Or of all named constants), assert ground atoms + CWA negations, then evaluate formula by checking if Not(formula) is unsat. Pure Python tuple-AST recursive evaluator also provided as fallback. Known edge cases: arity mismatch (most common LLM error), equality handling, CWA enforcement, domain finiteness constraint, XOR vs OR ambiguity.",
+  "out_expected_files": {
+    "output": "research_out.json"
+  },
+  "answer": "**Block 1: Z3 Python API for FOL Entailment**\n\nThe correct Z3 entailment pattern uses push/pop scoping [2][3]: add all premises with s.add(), then push(), add Not(conclusion), call s.check() — if unsat, return 'Entailment'. Pop, push again, add the conclusion (not negated), check — if unsat return 'Contradiction'. Otherwise 'Neutral'. Key finding [1]: LINC (Olausson et al. EMNLP 2023) actually uses **Prover9** (not Z3) as its theorem prover, with NLTK logic module syntax ('all x. (P(x) -> Q(x))'). Z3 is the preferred choice for our experiment since it integrates natively with Python without subprocess calls.\n\nZ3 quantifier patterns confirmed [2][3]:\n- `DeclareSort('Domain')` — creates custom sort for entities\n- `Function('Student', Domain, BoolSort())` — unary predicate\n- `Function('Reads', Domain, Domain, BoolSort())` — binary relation\n- `Const('alice', Domain)` — named individual\n- `ForAll([x], Implies(P(x), Q(x)))` — universal quantification\n- `Exists([x], And(P(x), Q(x)))` — existential quantification\n\n**Block 2: OpenRouter Model IDs and Pricing** [4][5][6]\n\n- `meta-llama/llama-3.1-8b-instruct`: $0.02/1M input, $0.03/1M output, 131K context — confirmed available.\n- `qwen/qwen-2.5-7b-instruct`: $0.04/1M input, $0.10/1M output, 131K context — confirmed available.\n- `qwen/qwen-2.5-7b-instruct:free`: FREE, 131K context, 2 providers — confirmed available as of 2026-06-09.\n\nBudget at paid rates: ~$0.37 total for full experiment (Step 0 $0.004 + Step 1 $0.016 + Step 2 Llama $0.016 + Step 2 Qwen world gen $0.18 + Step 2 Qwen oracle $0.13 + Step 3 $0.022). Using free Qwen tier drops to ~$0.02. $9.63 headroom under $10 cap.\n\n**Block 3: Few-Shot NL→FOL Prompt Template** [1][7]\n\nLINC (Appendix D.4) uses an HTML-tag format: <PREMISES>...</PREMISES><CONCLUSION>...</CONCLUSION><EVALUATE>TEXT: {nl}\\nFOL: {fol}...</EVALUATE>. The instruction prefix states: 'Expressions should adhere to the format of the Python NLTK package logic module.' 8 diverse FOLIO training examples are used as ICL. Verified NL→FOL pairs: 'All dispensable things are env-friendly.' → 'all x. (Dispensable(x) -> EnvironmentFriendly(x))'; 'No good things are bad.' → 'all x. (Good(x) -> -Bad(x))'; 'When a person reads a book, they gain knowledge.' → 'all x. all y. (Person(x) & Reads(x,y) & Book(y) -> Gains(x,Knowledge))' [1].\n\n**Block 4: Python FOL Model Checker** [2][8]\n\nRecommended: Z3-based finite-domain model checker. Algorithm: (1) DeclareSort('Domain'), (2) add ForAll([x], Or(*[x==c for c in named_constants])) as finiteness axiom, (3) assert all ground atoms + CWA negations for unlisted atoms, (4) check if Not(formula) is unsat in this context. Pure Python tuple-AST recursive evaluator also provided as fallback requiring no Z3. Known edge cases: arity mismatch (38% StarCoder error rate, 24% GPT-3.5, 13% GPT-4 [1]), CWA must be explicit, domain finiteness is critical for Z3 termination, XOR/OR ambiguity in FOLIO.",
+  "sources": [
+    {
+      "index": 1,
+      "url": "https://aclanthology.org/2023.emnlp-main.313.pdf",
+      "title": "LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers (EMNLP 2023)",
+      "summary": "Primary source for few-shot prompt format (Appendix D.4), FOL syntax (NLTK logic module), Prover9 as backend, error analysis (arity mismatch rates), and 8 FOLIO ICL examples. Key finding: LINC uses Prover9 not Z3."
+    },
+    {
+      "index": 2,
+      "url": "https://ericpony.github.io/z3py-tutorial/advanced-examples.htm",
+      "title": "Z3Py Advanced Examples",
+      "summary": "Confirmed Z3 Python API patterns: DeclareSort, ForAll with multiple variables, push/pop scope management, and entailment via unsat checking."
+    },
+    {
+      "index": 3,
+      "url": "https://theory.stanford.edu/~nikolaj/programmingz3.html",
+      "title": "Programming Z3 (Stanford)",
+      "summary": "Reference for Z3 solver incremental API, quantifier binding, and the prove-by-negation pattern."
+    },
+    {
+      "index": 4,
+      "url": "https://openrouter.ai/meta-llama/llama-3.1-8b-instruct",
+      "title": "Llama 3.1 8B Instruct - OpenRouter",
+      "summary": "Confirmed model ID, pricing ($0.02/$0.03 per 1M tokens), 131K context window, available status."
+    },
+    {
+      "index": 5,
+      "url": "https://openrouter.ai/qwen/qwen-2.5-7b-instruct",
+      "title": "Qwen2.5 7B Instruct - OpenRouter",
+      "summary": "Confirmed model ID, pricing ($0.04/$0.10 per 1M tokens), 131K context window, available status."
+    },
+    {
+      "index": 6,
+      "url": "https://openrouter.ai/qwen/qwen-2.5-7b-instruct:free",
+      "title": "Qwen2.5 7B Instruct (Free) - OpenRouter",
+      "summary": "Confirmed free tier exists with 2 providers, 131K context. Major cost saving: oracle calls could be free."
+    },
+    {
+      "index": 7,
+      "url": "https://raw.githubusercontent.com/Yale-LILY/FOLIO/main/data/v0.0/folio-validation.jsonl",
+      "title": "FOLIO Validation Dataset (Yale-LILY)",
+      "summary": "Provided 5 concrete NL→FOL example pairs from the actual FOLIO dataset, confirming predicate naming conventions and quantifier patterns."
+    },
+    {
+      "index": 8,
+      "url": "https://github.com/benlipkin/linc",
+      "title": "LINC GitHub Repository (benlipkin)",
+      "summary": "Confirmed repository structure; uses Prover9 (not Z3) as theorem prover backend; primarily Jupyter notebooks."
+    },
+    {
+      "index": 9,
+      "url": "https://www.philipzucker.com/z3-rise4fun/guide.html",
+      "title": "Getting Started with Z3 Guide",
+      "summary": "Additional Z3 patterns including push/pop scope management for entailment checking."
+    },
+    {
+      "index": 10,
+      "url": "https://arxiv.org/pdf/2506.18383",
+      "title": "LOGICPO: Efficient Translation of NL-based Logical Problems to FOL using LLMs",
+      "summary": "Recent (2025) work on NL-to-FOL translation confirming the continued use of similar few-shot prompting patterns."
+    }
+  ],
+  "follow_up_questions": [
+    "Does Prover9 support a Python API, or must LINC-style systems shell out to a subprocess? What is the latency vs Z3 for FOLIO-sized entailment problems?",
+    "For the world-probing experiment, should the LLM generate Z3 Python DSL expressions directly (avoids custom parser) or NLTK/Prover9 syntax with a converter — which format do smaller models (Llama-3.1-8B) handle better?",
+    "What is the actual rate limit on qwen/qwen-2.5-7b-instruct:free on OpenRouter, and would it bottleneck a 250-example experiment with m=8 oracle calls per candidate?"
+  ]
+}

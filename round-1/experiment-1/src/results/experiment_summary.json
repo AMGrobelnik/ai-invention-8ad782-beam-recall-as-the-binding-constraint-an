@@ -1,0 +1,64 @@
+{
+  "phase0": {
+    "beam_recall": 0.38,
+    "n": 50
+  },
+  "phase1": {
+    "oracle_accuracy": 0.7666666666666667,
+    "oracle_model": "qwen/qwen-2.5-7b-instruct",
+    "n": 30
+  },
+  "main_method": {
+    "accuracy": 0.20588235294117646,
+    "ci_95": [
+      0.15039513215046885,
+      0.2613695737318841
+    ],
+    "by_label": {
+      "Contradiction": 0.1111111111111111,
+      "Uncertain": 0.36231884057971014,
+      "Entailment": 0.1388888888888889
+    },
+    "n": 204
+  },
+  "baselines": {
+    "top1": {
+      "accuracy": 0.19607843137254902,
+      "n": 204
+    },
+    "self_consistency": {
+      "accuracy": 0.20588235294117646,
+      "n": 204
+    },
+    "direct_judge": {
+      "accuracy": 0.20098039215686275,
+      "n": 204
+    }
+  },
+  "ablations": {
+    "same_model_oracle": {
+      "accuracy": 0.24509803921568626,
+      "n": 204
+    },
+    "random_worlds": {
+      "accuracy": 0.23039215686274508,
+      "n": 204
+    },
+    "m4": {
+      "accuracy": 0.23529411764705882,
+      "n": 204
+    }
+  },
+  "budget": {
+    "total_cost_usd": 0.4280315800000031,
+    "oracle_model_used": "qwen/qwen-2.5-7b-instruct",
+    "generator_model_used": "meta-llama/llama-3.1-8b-instruct"
+  },
+  "success_criteria": {
+    "S1_beam_recall_ge60": false,
+    "S2_oracle_accuracy_ge72": true,
+    "S3_main_vs_top1_ge5pp": false,
+    "S4_main_vs_sc_ge3pp": false,
+    "S5_hetero_vs_homo_ge3pp": false
+  }
+}

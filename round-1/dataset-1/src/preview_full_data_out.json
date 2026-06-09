@@ -1,0 +1,51 @@
+{
+  "datasets": [
+    {
+      "dataset": "folio",
+      "examples": [
+        {
+          "input": "Premises:\n1. People in this club who perform in school talent shows often attend and are very engaged with school events.\n2. People in this club either perform in school talent shows often or are inac...",
+          "output": "neutral",
+          "metadata_example_id": "1014",
+          "metadata_story_id": "380",
+          "metadata_split": "validation",
+          "metadata_row_index": 0,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_conclusion": "Bonnie performs in school talent shows often.",
+          "metadata_num_premises": 6,
+          "metadata_premises_fol": "∀x (InThisClub(x) ∧ PerformOftenIn(x, schoolTalentShow) → Attend(x, schoolEvent) ∧ VeryEngagedWith(x, schoolEvent))\n∀x (InThisClub(x) → PerformOftenIn(x, schoolTalentShow) ⊕ (InActive(x) ∧ Disinterest...",
+          "metadata_conclusion_fol": "InThisClub(bonnie) ∧ (Perform(bonnie, schoolTalentShow))"
+        },
+        {
+          "input": "Premises:\n1. People in this club who perform in school talent shows often attend and are very engaged with school events.\n2. People in this club either perform in school talent shows often or are inac...",
+          "output": "entailment",
+          "metadata_example_id": "1015",
+          "metadata_story_id": "380",
+          "metadata_split": "validation",
+          "metadata_row_index": 1,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_conclusion": "If Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager wh...",
+          "metadata_num_premises": 6,
+          "metadata_premises_fol": "∀x (InThisClub(x) ∧ PerformOftenIn(x, schoolTalentShow) → Attend(x, schoolEvent) ∧ VeryEngagedWith(x, schoolEvent))\n∀x (InThisClub(x) → PerformOftenIn(x, schoolTalentShow) ⊕ (InActive(x) ∧ Disinterest...",
+          "metadata_conclusion_fol": "¬((YoungChildren(bonnie) ⊕ Teenager(bonnie)) ∧ WishToFurther(bonnie, academicCareer)) ⊕ Chaperone(bonnie, highSchoolDance)) → (Studen(x) ∧ AttendSchool(x)) ⊕ (YoungChildren(bonnie) ⊕ Teenager(bonnie))..."
+        },
+        {
+          "input": "Premises:\n1. People in this club who perform in school talent shows often attend and are very engaged with school events.\n2. People in this club either perform in school talent shows often or are inac...",
+          "output": "contradiction",
+          "metadata_example_id": "1016",
+          "metadata_story_id": "380",
+          "metadata_split": "validation",
+          "metadata_row_index": 2,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 3,
+          "metadata_conclusion": "If Bonnie either chaperones high school dances or, if she does not, she performs in school talent shows often, then Bonnie is both a young child or teenager who wishes to further her academic career a...",
+          "metadata_num_premises": 6,
+          "metadata_premises_fol": "∀x (InThisClub(x) ∧ PerformOftenIn(x, schoolTalentShow) → Attend(x, schoolEvent) ∧ VeryEngagedWith(x, schoolEvent))\n∀x (InThisClub(x) → PerformOftenIn(x, schoolTalentShow) ⊕ (InActive(x) ∧ Disinterest...",
+          "metadata_conclusion_fol": "(Chaperone(bonnie, highSchoolDance) ⊕ Perform(bonnie, schoolTalentShow)) → (YoungChildren(bonnie) ⊕ Teenager(bonnie)) ∧ WishToFurther(bonnie, academicCareer)) ∧ (InActive(bonnie) ∧ Disinterested(bonni..."
+        }
+      ]
+    }
+  ]
+}

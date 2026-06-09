@@ -1,0 +1,1242 @@
+[
+  {
+    "example_id": "folio_val_0578",
+    "sentence": "Space sucks.",
+    "world_atoms": [
+      "HasProperty(Plungers)"
+    ],
+    "domain": [
+      "Plungers"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0578",
+    "sentence": "Space sucks.",
+    "world_atoms": [
+      "HasProperty(Plungers)",
+      "HasProperty(Vacuums)"
+    ],
+    "domain": [
+      "Plungers",
+      "Vacuums"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0578",
+    "sentence": "Space sucks.",
+    "world_atoms": [
+      "NotHasProperty(Plungers)"
+    ],
+    "domain": [
+      "Plungers"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0171",
+    "sentence": "Walden contains knowledge.",
+    "world_atoms": [
+      "HasProperty(Books)"
+    ],
+    "domain": [
+      "Books"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0171",
+    "sentence": "Walden contains knowledge.",
+    "world_atoms": [
+      "HasProperty(Books)",
+      "HasProperty(When)"
+    ],
+    "domain": [
+      "Books",
+      "When"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0171",
+    "sentence": "Walden contains knowledge.",
+    "world_atoms": [
+      "NotHasProperty(Books)"
+    ],
+    "domain": [
+      "Books"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0134",
+    "sentence": "Aurochs are extinct.",
+    "world_atoms": [
+      "Extinct(Breeding)"
+    ],
+    "domain": [
+      "Breeding"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0134",
+    "sentence": "Aurochs are extinct.",
+    "world_atoms": [
+      "Extinct(Breeding)",
+      "Extinct(Heck)"
+    ],
+    "domain": [
+      "Breeding",
+      "Heck"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0134",
+    "sentence": "Aurochs are extinct.",
+    "world_atoms": [
+      "NotExtinct(Breeding)"
+    ],
+    "domain": [
+      "Breeding"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0563",
+    "sentence": "There is an animal.",
+    "world_atoms": [
+      "AnAnimal(When)"
+    ],
+    "domain": [
+      "When"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0563",
+    "sentence": "There is an animal.",
+    "world_atoms": [
+      "AnAnimal(When)",
+      "AnAnimal(Monkeypox)"
+    ],
+    "domain": [
+      "When",
+      "Monkeypox"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0563",
+    "sentence": "There is an animal.",
+    "world_atoms": [
+      "NotAnAnimal(When)"
+    ],
+    "domain": [
+      "When"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0531",
+    "sentence": "\"Black Mirror\" is popular.",
+    "world_atoms": [
+      "Popular(Stranger)"
+    ],
+    "domain": [
+      "Stranger"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0531",
+    "sentence": "\"Black Mirror\" is popular.",
+    "world_atoms": [
+      "Popular(Stranger)",
+      "Popular(Things)"
+    ],
+    "domain": [
+      "Stranger",
+      "Things"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0531",
+    "sentence": "\"Black Mirror\" is popular.",
+    "world_atoms": [
+      "NotPopular(Stranger)"
+    ],
+    "domain": [
+      "Stranger"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0579",
+    "sentence": "Space is a vampire.",
+    "world_atoms": [
+      "AVampire(Plungers)"
+    ],
+    "domain": [
+      "Plungers"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0579",
+    "sentence": "Space is a vampire.",
+    "world_atoms": [
+      "AVampire(Plungers)",
+      "AVampire(Vacuums)"
+    ],
+    "domain": [
+      "Plungers",
+      "Vacuums"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0579",
+    "sentence": "Space is a vampire.",
+    "world_atoms": [
+      "NotAVampire(Plungers)"
+    ],
+    "domain": [
+      "Plungers"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0565",
+    "sentence": "Symptoms of Monkeypox include coughing.",
+    "world_atoms": [
+      "HasProperty(When)"
+    ],
+    "domain": [
+      "When"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0565",
+    "sentence": "Symptoms of Monkeypox include coughing.",
+    "world_atoms": [
+      "HasProperty(When)",
+      "HasProperty(Monkeypox)"
+    ],
+    "domain": [
+      "When",
+      "Monkeypox"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0565",
+    "sentence": "Symptoms of Monkeypox include coughing.",
+    "world_atoms": [
+      "NotHasProperty(When)"
+    ],
+    "domain": [
+      "When"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0002",
+    "sentence": "Joey is a wild turkey.",
+    "world_atoms": [
+      "AWild(There)"
+    ],
+    "domain": [
+      "There"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0002",
+    "sentence": "Joey is a wild turkey.",
+    "world_atoms": [
+      "AWild(There)",
+      "AWild(Eastern)"
+    ],
+    "domain": [
+      "There",
+      "Eastern"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0002",
+    "sentence": "Joey is a wild turkey.",
+    "world_atoms": [
+      "NotAWild(There)"
+    ],
+    "domain": [
+      "There"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0456",
+    "sentence": "James's favorite season is summer.",
+    "world_atoms": [
+      "Summer(There)"
+    ],
+    "domain": [
+      "There"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0456",
+    "sentence": "James's favorite season is summer.",
+    "world_atoms": [
+      "Summer(There)",
+      "Summer(Spring)"
+    ],
+    "domain": [
+      "There",
+      "Spring"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0456",
+    "sentence": "James's favorite season is summer.",
+    "world_atoms": [
+      "NotSummer(There)"
+    ],
+    "domain": [
+      "There"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0457",
+    "sentence": "Mia's favorite season is spring.",
+    "world_atoms": [
+      "Spring(There)"
+    ],
+    "domain": [
+      "There"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0457",
+    "sentence": "Mia's favorite season is spring.",
+    "world_atoms": [
+      "Spring(There)",
+      "Spring(Spring)"
+    ],
+    "domain": [
+      "There",
+      "Spring"
+    ],
+    "ground_truth_bool": true,
+    "category": "A",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0457",
+    "sentence": "Mia's favorite season is spring.",
+    "world_atoms": [
+      "NotSpring(There)"
+    ],
+    "domain": [
+      "There"
+    ],
+    "ground_truth_bool": false,
+    "category": "A",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0700",
+    "sentence": "No pets are cats.",
+    "world_atoms": [
+      "NotHoldsProperty(Alice)"
+    ],
+    "domain": [
+      "Alice"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0700",
+    "sentence": "No pets are cats.",
+    "world_atoms": [
+      "HoldsProperty(Alice)"
+    ],
+    "domain": [
+      "Alice"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0700",
+    "sentence": "No pets are cats.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0564",
+    "sentence": "No one gets the flu.",
+    "world_atoms": [
+      "NotHoldsProperty(When)"
+    ],
+    "domain": [
+      "When"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0564",
+    "sentence": "No one gets the flu.",
+    "world_atoms": [
+      "HoldsProperty(When)"
+    ],
+    "domain": [
+      "When"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0564",
+    "sentence": "No one gets the flu.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_1362",
+    "sentence": "Rockie is not a turtle.",
+    "world_atoms": [
+      "NotHoldsProperty(Rockie)"
+    ],
+    "domain": [
+      "Rockie"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_1362",
+    "sentence": "Rockie is not a turtle.",
+    "world_atoms": [
+      "HoldsProperty(Rockie)"
+    ],
+    "domain": [
+      "Rockie"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_1362",
+    "sentence": "Rockie is not a turtle.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0623",
+    "sentence": "Beethoven is not a conductor.",
+    "world_atoms": [
+      "NotHoldsProperty(Symphony)"
+    ],
+    "domain": [
+      "Symphony"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0623",
+    "sentence": "Beethoven is not a conductor.",
+    "world_atoms": [
+      "HoldsProperty(Symphony)"
+    ],
+    "domain": [
+      "Symphony"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0623",
+    "sentence": "Beethoven is not a conductor.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_1350",
+    "sentence": "Rock does not have wings.",
+    "world_atoms": [
+      "NotHoldsProperty(Peter)"
+    ],
+    "domain": [
+      "Peter"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_1350",
+    "sentence": "Rock does not have wings.",
+    "world_atoms": [
+      "HoldsProperty(Peter)"
+    ],
+    "domain": [
+      "Peter"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_1350",
+    "sentence": "Rock does not have wings.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0906",
+    "sentence": "1984 is not a streaming service.",
+    "world_atoms": [
+      "NotHoldsProperty(Alice)"
+    ],
+    "domain": [
+      "Alice"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0906",
+    "sentence": "1984 is not a streaming service.",
+    "world_atoms": [
+      "HoldsProperty(Alice)"
+    ],
+    "domain": [
+      "Alice"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0906",
+    "sentence": "1984 is not a streaming service.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0074",
+    "sentence": "Platypuses are mammals with no teeth.",
+    "world_atoms": [
+      "NotHoldsProperty(Platypuses)"
+    ],
+    "domain": [
+      "Platypuses"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0074",
+    "sentence": "Platypuses are mammals with no teeth.",
+    "world_atoms": [
+      "HoldsProperty(Platypuses)"
+    ],
+    "domain": [
+      "Platypuses"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0074",
+    "sentence": "Platypuses are mammals with no teeth.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0706",
+    "sentence": "Some evergreens are not objects of worship.",
+    "world_atoms": [
+      "NotHoldsProperty(Alice)"
+    ],
+    "domain": [
+      "Alice"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0706",
+    "sentence": "Some evergreens are not objects of worship.",
+    "world_atoms": [
+      "HoldsProperty(Alice)"
+    ],
+    "domain": [
+      "Alice"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0706",
+    "sentence": "Some evergreens are not objects of worship.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0788",
+    "sentence": "John's car is not a Solo EV.",
+    "world_atoms": [
+      "NotHoldsProperty(Tesla)"
+    ],
+    "domain": [
+      "Tesla"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0788",
+    "sentence": "John's car is not a Solo EV.",
+    "world_atoms": [
+      "HoldsProperty(Tesla)"
+    ],
+    "domain": [
+      "Tesla"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0788",
+    "sentence": "John's car is not a Solo EV.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0847",
+    "sentence": "John does not have a larger family.",
+    "world_atoms": [
+      "NotHoldsProperty(Anyone)"
+    ],
+    "domain": [
+      "Anyone"
+    ],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0847",
+    "sentence": "John does not have a larger family.",
+    "world_atoms": [
+      "HoldsProperty(Anyone)"
+    ],
+    "domain": [
+      "Anyone"
+    ],
+    "ground_truth_bool": false,
+    "category": "B",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0847",
+    "sentence": "John does not have a larger family.",
+    "world_atoms": [],
+    "domain": [],
+    "ground_truth_bool": true,
+    "category": "B",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_1349",
+    "sentence": "Rock has wings.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_1349",
+    "sentence": "Rock has wings.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_1349",
+    "sentence": "Rock has wings.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0848",
+    "sentence": "John is engaged.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0848",
+    "sentence": "John is engaged.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0848",
+    "sentence": "John is engaged.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0075",
+    "sentence": "Platypuses are reptiles.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0075",
+    "sentence": "Platypuses are reptiles.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0075",
+    "sentence": "Platypuses are reptiles.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0076",
+    "sentence": "Humans are mammals.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0076",
+    "sentence": "Humans are mammals.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0076",
+    "sentence": "Humans are mammals.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_1324",
+    "sentence": "KiKi is terricolous.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_1324",
+    "sentence": "KiKi is terricolous.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_1324",
+    "sentence": "KiKi is terricolous.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0726",
+    "sentence": "All squares are shapes.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0726",
+    "sentence": "All squares are shapes.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0726",
+    "sentence": "All squares are shapes.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_1361",
+    "sentence": "Rockie is a turtle.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_1361",
+    "sentence": "Rockie is a turtle.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_1361",
+    "sentence": "Rockie is a turtle.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_1301",
+    "sentence": "Marvin is an alien.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_1301",
+    "sentence": "Marvin is an alien.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_1301",
+    "sentence": "Marvin is an alien.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0621",
+    "sentence": "Beethoven is a composer.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0621",
+    "sentence": "Beethoven is a composer.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0621",
+    "sentence": "Beethoven is a composer.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  },
+  {
+    "example_id": "folio_val_0904",
+    "sentence": "1984 is printed text.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjY)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX",
+      "ObjY"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 0
+  },
+  {
+    "example_id": "folio_val_0904",
+    "sentence": "1984 is printed text.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)",
+      "Rel(Bob,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": true,
+    "category": "C",
+    "world_index": 1
+  },
+  {
+    "example_id": "folio_val_0904",
+    "sentence": "1984 is printed text.",
+    "world_atoms": [
+      "Rel(Alice,ObjX)"
+    ],
+    "domain": [
+      "Alice",
+      "Bob",
+      "ObjX"
+    ],
+    "ground_truth_bool": false,
+    "category": "C",
+    "world_index": 2
+  }
+]

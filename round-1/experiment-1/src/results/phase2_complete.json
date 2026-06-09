@@ -1,0 +1,3062 @@
+[
+  {
+    "example_id": 0,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 1,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      0.875,
+      0.5,
+      0.875,
+      0.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 2,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 3,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 4,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 5,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.75,
+      0.75,
+      0.5,
+      0.5,
+      0.875
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 6,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.5,
+      0.375
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 7,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.25,
+      0.875,
+      0.875,
+      0.875
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 8,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.5,
+      0.5,
+      0.5,
+      0.375
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 9,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.75,
+      0.125,
+      0.125,
+      0.0
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 10,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.125,
+      0.375,
+      0.75,
+      0.375
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 11,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      0.375,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 12,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.75,
+      0.5,
+      0.5,
+      0.5,
+      0.625
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 13,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.625,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 14,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 15,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 16,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.375,
+      0.5,
+      0.625,
+      0.625,
+      0.625
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 17,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.875,
+      0.5,
+      0.875,
+      0.875
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 18,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.625,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 19,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.25,
+      0.5,
+      0.25,
+      0.25
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 20,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.875,
+      0.375,
+      0.625,
+      0.375,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 21,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.25,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 22,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 23,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.375,
+      0.375,
+      0.375,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 24,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.875,
+      0.5,
+      0.875,
+      0.75,
+      0.375
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 25,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.125,
+      0.125,
+      0.5,
+      0.125
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 26,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 27,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.875,
+      0.5,
+      0.5,
+      0.875
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 28,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.125,
+      0.75,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 29,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 30,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 31,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.0,
+      0.5,
+      0.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 32,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 33,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.625,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 34,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.625,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 35,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 36,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 37,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.25,
+      0.5,
+      0.375,
+      0.375
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 38,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.375
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 39,
+    "label": "Uncertain",
+    "verdict": "Entailment",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 40,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.625,
+      0.375,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 41,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.25,
+      0.75,
+      0.5,
+      0.875,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 42,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 43,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.125,
+      0.125,
+      0.625,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 44,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 45,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.25,
+      1.0,
+      0.5,
+      0.875
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 46,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 47,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.375,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 48,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.75,
+      0.75,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 49,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 50,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 51,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 52,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.75,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 53,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 54,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.375,
+      0.375,
+      0.5,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 55,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.125,
+      0.125,
+      0.625,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 56,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 57,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 58,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.75,
+      0.875,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 59,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.375,
+      0.125,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 60,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 61,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.25,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 62,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.375,
+      0.375,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 63,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 64,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.125,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 65,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 66,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 67,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.625,
+      0.625,
+      0.625,
+      0.625
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 68,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 69,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      0.125,
+      0.5,
+      0.875
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 70,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.25,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 71,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.125,
+      0.5,
+      0.5,
+      0.125,
+      0.125
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 72,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 73,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.125,
+      0.125,
+      0.5,
+      1.0
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 74,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.875,
+      0.5,
+      0.5,
+      0.875,
+      0.875
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 75,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 76,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.375,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 77,
+    "label": "Uncertain",
+    "verdict": "Contradiction",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 78,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.75,
+      0.25,
+      1.0,
+      0.25,
+      0.25
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 79,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.875
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 80,
+    "label": "Contradiction",
+    "verdict": "Entailment",
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      0.625,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 81,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.625,
+      0.5,
+      0.75,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 82,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.75,
+      0.5,
+      0.75,
+      0.5,
+      0.75
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 83,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 84,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.125,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 85,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 86,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 87,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 88,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 89,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.0,
+      0.625,
+      0.5,
+      0.0
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 90,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 91,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 92,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 93,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      0.875,
+      0.5,
+      0.0
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 94,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      0.875,
+      0.875,
+      0.875
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 95,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 96,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 97,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      1.0,
+      0.125,
+      0.5,
+      0.5,
+      0.75
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 98,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 99,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.625,
+      0.625,
+      0.625,
+      0.625,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 100,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 101,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 102,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 103,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.5,
+      0.5,
+      0.5,
+      0.125
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 104,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.625,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 105,
+    "label": "Uncertain",
+    "verdict": "Entailment",
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 106,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 107,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 108,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.25,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 109,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.25,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 110,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 111,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.375,
+      1.0,
+      0.875,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 112,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.75,
+      1.0,
+      0.25,
+      0.75,
+      0.25
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 113,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.75,
+      0.5,
+      0.25,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 114,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 115,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 116,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.875,
+      1.0,
+      1.0
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 117,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 118,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.875
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 119,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.375,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 120,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.25,
+      0.5,
+      0.25
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 121,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.875,
+      0.625
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 122,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.75,
+      0.75,
+      0.0,
+      0.375,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 123,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      0.25,
+      0.5,
+      0.25
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 124,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.375,
+      0.5,
+      0.75
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 125,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 126,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.875,
+      0.5,
+      0.875,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 127,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.625,
+      0.5,
+      0.625,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 128,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.625,
+      0.375
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 129,
+    "label": "Contradiction",
+    "verdict": "Entailment",
+    "correct": false,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.5,
+      0.25
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 130,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.625,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 131,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.125,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 132,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.375
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 133,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 134,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 135,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.75,
+      0.5,
+      0.125,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 136,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.625,
+      0.875,
+      0.875,
+      0.875
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 137,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      0.75,
+      0.75,
+      0.25,
+      0.75,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 138,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.125,
+      0.5,
+      0.125,
+      0.5,
+      0.125
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 139,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.375
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 140,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 141,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 142,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.875,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 143,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.75,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 144,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 145,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      0.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 146,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.75,
+      0.5,
+      0.625,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 147,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 148,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 149,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 150,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 151,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 152,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 153,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      1.0,
+      0.5,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 154,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 155,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.375,
+      0.625,
+      0.5,
+      0.375
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 156,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.75,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 157,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.75,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 158,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 159,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.625,
+      0.5,
+      0.75,
+      0.5,
+      0.625
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 160,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.375,
+      0.375,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 161,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 162,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 163,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 164,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.25,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 165,
+    "label": "Contradiction",
+    "verdict": "Entailment",
+    "correct": false,
+    "scores": [
+      0.875,
+      0.875,
+      0.875,
+      0.5,
+      0.875
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 166,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.875,
+      0.875,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 167,
+    "label": "Contradiction",
+    "verdict": "Contradiction",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 168,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 169,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.25,
+      0.75,
+      0.5,
+      0.25
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 170,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 171,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.875,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 172,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.625,
+      0.375,
+      0.5,
+      0.5,
+      0.625
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 173,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.125,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 174,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 175,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      0.875,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 176,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.0,
+      0.5,
+      0.5,
+      1.0,
+      0.0
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 177,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.125,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 178,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.125,
+      0.0,
+      0.125,
+      0.125
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 179,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.875,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 180,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.25,
+      0.5,
+      0.5,
+      0.5,
+      0.25
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 181,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 182,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 183,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.625,
+      0.625
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 184,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 185,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.0,
+      0.125,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 186,
+    "label": "Contradiction",
+    "verdict": "Entailment",
+    "correct": false,
+    "scores": [
+      0.625,
+      0.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 187,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.25,
+      0.5,
+      0.5,
+      0.25,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 188,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 189,
+    "label": "Contradiction",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 190,
+    "label": "Entailment",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.875,
+      0.375,
+      0.5,
+      0.5
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 191,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.625,
+      0.5,
+      0.5,
+      0.375,
+      1.0
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 192,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 193,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.625,
+      0.625,
+      0.625
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 194,
+    "label": "Entailment",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      1.0,
+      0.25,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 195,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.625,
+      0.375,
+      0.375,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 196,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.625
+    ],
+    "best_idx": 4,
+    "filtered": false
+  },
+  {
+    "example_id": 197,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 198,
+    "label": "Entailment",
+    "verdict": "Entailment",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 199,
+    "label": "Contradiction",
+    "verdict": "Uncertain",
+    "correct": false,
+    "scores": [
+      0.5,
+      0.75,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "best_idx": 2,
+    "filtered": false
+  },
+  {
+    "example_id": 200,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.875,
+      0.5
+    ],
+    "best_idx": 3,
+    "filtered": false
+  },
+  {
+    "example_id": 201,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      0.0
+    ],
+    "best_idx": 1,
+    "filtered": false
+  },
+  {
+    "example_id": 202,
+    "label": "Uncertain",
+    "verdict": null,
+    "correct": false,
+    "scores": [
+      0.875,
+      0.25,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  },
+  {
+    "example_id": 203,
+    "label": "Uncertain",
+    "verdict": "Uncertain",
+    "correct": true,
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "best_idx": 0,
+    "filtered": false
+  }
+]

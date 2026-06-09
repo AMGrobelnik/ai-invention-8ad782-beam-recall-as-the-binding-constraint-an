@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "experiment": "howp_iter2_synthetic",
+    "dataset": "synthetic_single_multi_premise",
+    "generator_model": "meta-llama/llama-3.1-70b-instruct",
+    "oracle_model": "qwen/qwen-2.5-7b-instruct",
+    "n_examples": 100,
+    "beam_recall": {
+      "k5": 1.0,
+      "passed_gate": true
+    },
+    "in_distribution_oracle_accuracy": 0.6667,
+    "results": {
+      "howp_hetero": {
+        "accuracy": 0.93,
+        "n": 100,
+        "correct": 93
+      },
+      "howp_same": {
+        "accuracy": 0.93,
+        "n": 100,
+        "correct": 93
+      },
+      "howp_random": {
+        "accuracy": 0.96,
+        "n": 100,
+        "correct": 96
+      },
+      "howp_m4": {
+        "accuracy": 0.93,
+        "n": 100,
+        "correct": 93
+      },
+      "top1": {
+        "accuracy": 0.94,
+        "n": 100,
+        "correct": 94
+      },
+      "self_consist": {
+        "accuracy": 0.94,
+        "n": 100,
+        "correct": 94
+      },
+      "direct_judge": {
+        "accuracy": 0.99,
+        "n": 100,
+        "correct": 99
+      }
+    },
+    "comparisons": {
+      "howp_vs_top1": -0.01,
+      "howp_vs_self_consist": -0.01,
+      "hetero_vs_same_oracle": 0.0,
+      "diag_vs_random_worlds": -0.03,
+      "m8_vs_m4": 0.0
+    },
+    "total_cost_usd": 0.0833,
+    "total_llm_calls": 3575
+  },
+  "datasets": [
+    {
+      "dataset": "howp_iter2_synthetic",
+      "examples": [
+        {
+          "input": "Conclusion: Frank is fast.\nGold label: neutral",
+          "output": "{\"selected_howp\": \"Fast(Frank)\", \"selected_top1\": \"Fast(Frank)\", \"verdicts\": {\"howp_hetero\": true, \"howp_same\": true, \"howp_random\": true, \"howp_m4\": true, \"top1\": true, \"self_consist\": true, \"direct_...",
+          "metadata_example_id": "syn_0050",
+          "metadata_phase": "howp_main",
+          "metadata_gold_label": "neutral",
+          "metadata_beam_recall_passed": "True",
+          "predict_howp_hetero": "Fast(Frank)",
+          "predict_howp_same": "Fast(Frank)",
+          "predict_howp_random": "Fast(Frank)",
+          "predict_howp_m4": "Fast(Frank)",
+          "predict_top1": "Fast(Frank)",
+          "predict_self_consist": "Fast(Frank)",
+          "predict_direct_judge": "Fast(Frank)"
+        },
+        {
+          "input": "Conclusion: Jack is large.\nGold label: entailment",
+          "output": "{\"selected_howp\": \"Large(Jack)\", \"selected_top1\": \"Large(Jack)\", \"verdicts\": {\"howp_hetero\": true, \"howp_same\": true, \"howp_random\": true, \"howp_m4\": true, \"top1\": true, \"self_consist\": true, \"direct_...",
+          "metadata_example_id": "syn_0051",
+          "metadata_phase": "howp_main",
+          "metadata_gold_label": "entailment",
+          "metadata_beam_recall_passed": "True",
+          "predict_howp_hetero": "Large(Jack)",
+          "predict_howp_same": "Large(Jack)",
+          "predict_howp_random": "Large(Jack)",
+          "predict_howp_m4": "Large(Jack)",
+          "predict_top1": "Large(Jack)",
+          "predict_self_consist": "Large(Jack)",
+          "predict_direct_judge": "Large(Jack)"
+        },
+        {
+          "input": "Conclusion: Dave is smart.\nGold label: contradiction",
+          "output": "{\"selected_howp\": \"Smart(Dave)\", \"selected_top1\": \"Smart(Dave)\", \"verdicts\": {\"howp_hetero\": true, \"howp_same\": true, \"howp_random\": true, \"howp_m4\": true, \"top1\": true, \"self_consist\": true, \"direct_...",
+          "metadata_example_id": "syn_0052",
+          "metadata_phase": "howp_main",
+          "metadata_gold_label": "contradiction",
+          "metadata_beam_recall_passed": "True",
+          "predict_howp_hetero": "Smart(Dave)",
+          "predict_howp_same": "Smart(Dave)",
+          "predict_howp_random": "Smart(Dave)",
+          "predict_howp_m4": "Smart(Dave)",
+          "predict_top1": "Smart(Dave)",
+          "predict_self_consist": "Smart(Dave)",
+          "predict_direct_judge": "Smart(Dave)"
+        }
+      ]
+    }
+  ]
+}

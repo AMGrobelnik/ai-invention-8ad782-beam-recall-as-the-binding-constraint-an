@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "method_name": "heterogeneous_oracle_world_probing",
+    "description": "Four-phase NL-to-FOL faithfulness evaluation via heterogeneous oracle world probing on FOLIO",
+    "parameters": {
+      "generator_model": "meta-llama/llama-3.1-8b-instruct",
+      "oracle_model": "qwen/qwen-2.5-7b-instruct",
+      "k_candidates": 5,
+      "m_worlds": 8,
+      "n_examples": 204
+    },
+    "summary": {
+      "phase0": {
+        "beam_recall": 0.38,
+        "n": 50
+      },
+      "phase1": {
+        "oracle_accuracy": 0.7666666666666667,
+        "oracle_model": "qwen/qwen-2.5-7b-instruct",
+        "n": 30
+      },
+      "main_method": {
+        "accuracy": 0.20588235294117646,
+        "ci_95": [
+          0.15039513215046885,
+          0.2613695737318841
+        ],
+        "by_label": {
+          "Contradiction": 0.1111111111111111,
+          "Uncertain": 0.36231884057971014,
+          "Entailment": 0.1388888888888889
+        },
+        "n": 204
+      },
+      "baselines": {
+        "top1": {
+          "accuracy": 0.19607843137254902,
+          "n": 204
+        },
+        "self_consistency": {
+          "accuracy": 0.20588235294117646,
+          "n": 204
+        },
+        "direct_judge": {
+          "accuracy": 0.20098039215686275,
+          "n": 204
+        }
+      },
+      "ablations": {
+        "same_model_oracle": {
+          "accuracy": 0.24509803921568626,
+          "n": 204
+        },
+        "random_worlds": {
+          "accuracy": 0.23039215686274508,
+          "n": 204
+        },
+        "m4": {
+          "accuracy": 0.23529411764705882,
+          "n": 204
+        }
+      },
+      "budget": {
+        "total_cost_usd": 0.4280315800000031,
+        "oracle_model_used": "qwen/qwen-2.5-7b-instruct",
+        "generator_model_used": "meta-llama/llama-3.1-8b-instruct"
+      },
+      "success_criteria": {
+        "S1_beam_recall_ge60": false,
+        "S2_oracle_accuracy_ge72": true,
+        "S3_main_vs_top1_ge5pp": false,
+        "S4_main_vs_sc_ge3pp": false,
+        "S5_hetero_vs_homo_ge3pp": false
+      }
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "yale-nlp/folio",
+      "examples": [
+        {
+          "input": "Premises: All people who eat salads regularly are very conscious about their health and eating habits. | All people who grew up in health-conscious childhood homes eat salads regularly. | All people w...",
+          "output": "Contradiction",
+          "predict_main_method": "Uncertain",
+          "predict_top1_baseline": "",
+          "predict_self_consistency": "",
+          "predict_direct_judge": "",
+          "predict_ablation_same_oracle": "Uncertain",
+          "predict_ablation_random_worlds": "Uncertain",
+          "predict_ablation_m4": "Uncertain",
+          "metadata_gold_label": "Contradiction",
+          "metadata_main_correct": "False",
+          "metadata_top1_correct": "False",
+          "metadata_sc_correct": "False",
+          "metadata_candidates": "[{\"premises_fol\":[],\"conclusion_fol\":\"Taylor visits the gym at least once a day.\"},{\"premises_fol\":[\"forall X. (RegularSaladEater(X) -> VeryConscious(X))\",\"forall X. (HealthConsciousChildhoodHome(X) -...",
+          "metadata_world_scores": "[0.5, 1.0, 0.0, 0.0, 0.0]"
+        },
+        {
+          "input": "Premises: There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild | turkey, Rio Grande wild turkey, and Ocellated wild turkey. | Tom is not a...",
+          "output": "Contradiction",
+          "predict_main_method": "Contradiction",
+          "predict_top1_baseline": "Contradiction",
+          "predict_self_consistency": "Contradiction",
+          "predict_direct_judge": "",
+          "predict_ablation_same_oracle": "Contradiction",
+          "predict_ablation_random_worlds": "Contradiction",
+          "predict_ablation_m4": "Contradiction",
+          "metadata_gold_label": "Contradiction",
+          "metadata_main_correct": "True",
+          "metadata_top1_correct": "True",
+          "metadata_sc_correct": "True",
+          "metadata_candidates": "[{\"premises_fol\":[\"exists X1. exists X2. exists X3. exists X4. exists X5. exists X6. (WildTurkey(X1) & WildTurkey(X2) & WildTurkey(X3) & WildTurkey(X4) & WildTurkey(X5) & WildTurkey(X6) & (not(X1 = Ea...",
+          "metadata_world_scores": "[0.875, 0.5, 0.875, 0.0, 0.5]"
+        },
+        {
+          "input": "Premises: All cows are bovines. | Some pets are cows. | If something is a bovine, then it is domesticated. | No domesticated animals are alligators. | Ted is an aligator.\nConclusion: Ted is a pet.",
+          "output": "Uncertain",
+          "predict_main_method": "",
+          "predict_top1_baseline": "",
+          "predict_self_consistency": "",
+          "predict_direct_judge": "",
+          "predict_ablation_same_oracle": "",
+          "predict_ablation_random_worlds": "",
+          "predict_ablation_m4": "",
+          "metadata_gold_label": "Uncertain",
+          "metadata_main_correct": "False",
+          "metadata_top1_correct": "False",
+          "metadata_sc_correct": "False",
+          "metadata_candidates": "[{\"premises_fol\":[],\"conclusion_fol\":\"Ted is a pet.\"},{\"premises_fol\":[\"All cows are bovines.\",\"Some pets are cows.\",\"If something is a bovine, then it is domesticated.\",\"No domesticated animals are a...",
+          "metadata_world_scores": "[0.5, 0.5, 0.5, 0.5, 0.5]"
+        }
+      ]
+    }
+  ]
+}
